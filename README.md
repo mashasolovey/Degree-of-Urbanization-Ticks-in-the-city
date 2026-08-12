@@ -1,2 +1,8 @@
 # Degree-of-Urbanization-Ticks-in-the-city
-A simple Python tool for classifying tick study locations as urban/peri-urban, urban-edge, or rural using the Eurostat DEGURBA Level 2 1 km population grid. For locations classified as rural, the tool also checks the four directly adjacent grid cells (north, south, east, and west) to identify sites located at the immediate urban–rural edge.
+Simple Python script for classifying study locations using the Eurostat Degree of Urbanisation (DEGURBA) 1 km grid.
+For rural locations, the script checks the eight surrounding grid cells to identify locations at the urban edge.
+
+Download **DEGURBA (GRID), 2021** from Eurostat:
+https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution/degree-urbanisation
+Place the downloaded `DGUR_LEVEL2_GRD_1KM_2021.tif` file in the `data` folder.
+
